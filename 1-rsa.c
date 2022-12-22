@@ -14,11 +14,6 @@ void print_factors(long double num)
 {
 	long double i, temp;
 
-	if (num <= 1)
-	{
-		dprintf(2, "<num> must be greater than 1\n");
-		return;
-	}
 	for (i = 2; i < num; i++)
 	{
 		if ((long int)num % (int)i == 0)
