@@ -23,7 +23,6 @@ void print_factors(long double num)
 			return;
 		}
 	}
-	printf("%.0Lf has no factors\n", num);
 }
 
 /**
